@@ -2102,6 +2102,208 @@ var XY_PATCH = {
     'Topsy-Turvy': { bp: 0, type: 'Dark' },
     'Trick-or-Treat': { bp: 0, type: 'Ghost' },
     'Venom Drench': { bp: 0, type: 'Poison', target: 'allAdjacentFoes' }
+    Coral Break': {
+    bp: 80,
+    type: 'Water',
+    makesContact: true,
+    category: 'Special',
+    overrideDefensiveStat: 'def',
+  },
+  'Atomic Punch': {
+    bp: 80,
+    type: 'Nuclear',
+    makesContact: true,
+    isPunch: true,
+    category: 'Physical',
+    secondaries: true,
+  },
+  'Metal Whip': {
+    bp: 50,
+    type: 'Steel',
+    category: 'Physical',
+    makesContact: true,
+  },
+  'Nuclear Waste': {
+    bp: 0,
+    type: 'Nuclear',
+    category: 'Status',
+  },
+  'Gamma Ray': {
+    bp: 40,
+    type: 'Nuclear',
+    category: 'Special',
+  },
+  'Radioacid': {
+    bp: 60,
+    type: 'Nuclear',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Sky Fall': {
+    bp: 85,
+    type: 'Flying',
+    makesContact: true,
+    category: 'Special',
+    secondaries: true,
+  },
+  'Flame Impact': {
+    bp: 65,
+    type: 'Fire',
+    priority: 2,
+    makesContact: true,
+    category: 'Physical',
+  },
+  Subduction: {
+    bp: 140,
+    type: 'Ground',
+    isSound: true,
+    target: 'allAdjacent',
+    category: 'Physical',
+    secondaries: true,
+  },
+  'Instant Crush': {
+    bp: 60,
+    type: 'Psychic',
+    priority: 1,
+    category: 'Special',
+  },
+  'Get Lucky': {
+    bp: 70,
+    type: 'Psychic',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Laser Pulse': {
+    bp: 90,
+    type: 'Normal',
+    category: 'Special',
+    isPulse: true,
+  },
+  'Laser Pulse (Fire)': {
+    bp: 90,
+    type: 'Fire',
+    category: 'Special',
+    isPulse: true,
+  },
+  'Laser Pulse (Electric)': {
+    bp: 90,
+    type: 'Electric',
+    category: 'Special',
+    isPulse: true,
+  },
+  'Laser Pulse (Ice)': {
+    bp: 90,
+    type: 'Ice',
+    category: 'Special',
+    isPulse: true,
+  },
+  'Half-Life': {
+    bp: 1,
+    type: 'Nuclear',
+    category: 'Special'
+  },
+  'Fission Burst': {
+    bp: 150,
+    type: 'Nuclear',
+    category: 'Physical',
+    target: 'allAdjacent',
+  },
+  'Caustic Breath': {
+    bp: 60,
+    type: 'Dragon',
+    target: 'allAdjacentFoes',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Nuclear Slash': {
+    bp: 55,
+    type: 'Nuclear',
+    makesContact: true,
+    category: 'Physical',
+  },
+  'Thunderstorm': {
+    bp: 0,
+    category: 'Status',
+    type: 'Electric'
+  },
+  'Sudden Strike': {
+    bp: 40,
+    type: 'Dark',
+    priority: 1,
+    makesContact: true,
+    category: 'Physical',
+  },
+  'Expunge': {
+    bp: 120,
+    type: 'Nuclear',
+    category: 'Special',
+  },
+  'Fallout': {
+    bp: 0,
+    category: 'Status',
+    type: 'Nuclear'
+  },
+  'Proton Beam': {
+    bp: 100,
+    type: 'Nuclear',
+    self: {boosts: {spa: -2}},
+    category: 'Special'
+  },
+  'Infernal Blade': {
+    bp: 90,
+    type: 'Fire',
+    makesContact: true,
+    category: 'Physical',
+    secondaries: true,
+  },
+  'Quantum Leap': {
+    bp: 100,
+    type: 'Nuclear',
+    breaksProtect: true,
+    makesContact: true,
+    category: 'Physical',
+  },
+  'Metal Cruncher': {
+    bp: 120,
+    type: 'Steel',
+    makesContact: true,
+    category: 'Physical',
+    secondaries: true,
+  },
+  'Drain Life': {
+    bp: 75,
+    type: 'Dark',
+    drain: [1, 2],
+    makesContact: true,
+    category: 'Physical',
+  },
+  'Sticky Terrain': {
+    bp: 0,
+    type: 'Psychic',
+  },
+  'Nuclear Wind': {
+    bp: 65,
+    type: 'Nuclear',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Gemstone Glimmer': {
+    bp: 75,
+    type: 'Rock',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Ocean\'s Wrath': {
+    bp: 90,
+    type: 'Water',
+    category: 'Special',
+  },
+  'Golden Fist': {
+    bp: 70,
+    type: 'Fighting',
+    makesContact: true,
+    category: 'Physical',
+  },
 };
 var XY = util_1.extend(true, {}, BW, XY_PATCH);
 var SM_PATCH = {
