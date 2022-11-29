@@ -317,10 +317,10 @@ function getHazards(gen, defender, defenderSide) {
         damage += Math.floor((effectiveness * defender.maxHP()) / 8);
         texts.push('Foundry');
     }
-    if (defenderSide.isSR && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
+    if (defenderSide.isVS && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
         var rockType = gen.types.get('dragon');
-        var effectiveness = rockType.effectiveness[defender.types[0]] *
-            (defender.types[1] ? rockType.effectiveness[defender.types[1]] : 1);
+        var effectiveness = dragonType.effectiveness[defender.types[0]] *
+            (defender.types[1] ? dragonType.effectiveness[defender.types[1]] : 1);
         damage += Math.floor((effectiveness * defender.maxHP()) / 8);
         texts.push('Velvet Scales');
     }
