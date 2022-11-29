@@ -783,7 +783,7 @@ function getDescriptionLevels(attacker, defender) {
             defender.level === 100 ? '' : "Lvl " + defender.level,
         ];
     }
-    var elide = [120, 50, 5].includes(attacker.level);
+    var elide = [100, 50, 5].includes(attacker.level);
     var level = elide ? '' : "Lvl " + attacker.level;
     return [level, level];
 }
