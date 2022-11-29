@@ -838,7 +838,7 @@ function createField() {
 		weather = $("input:radio[name='weather']:checked").val();
 		spikes = [~~$("input:radio[name='spikesL']:checked").val(), ~~$("input:radio[name='spikesR']:checked").val()];
 	}
-	var steelsurge = [$("#steelsurgeL").prop("checked"), $("#steelsurgeR").prop("checked")];
+	var velvetscales = [$("#vsL").prop("checked"), $("#vsL").prop("checked")];
 	var vinelash = [$("#vinelashL").prop("checked"), $("#vinelashR").prop("checked")];
 	var wildfire = [$("#wildfireL").prop("checked"), $("#wildfireR").prop("checked")];
 	var cannonade = [$("#cannonadeL").prop("checked"), $("#cannonadeR").prop("checked")];
