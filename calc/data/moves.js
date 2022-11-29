@@ -2102,7 +2102,7 @@ var XY_PATCH = {
     'Topsy-Turvy': { bp: 0, type: 'Dark' },
     'Trick-or-Treat': { bp: 0, type: 'Ghost' },
     'Venom Drench': { bp: 0, type: 'Poison', target: 'allAdjacentFoes' },
-    Coral Break': {
+    'Coral Break': {
     bp: 80,
     type: 'Water',
     makesContact: true,
