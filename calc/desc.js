@@ -317,6 +317,13 @@ function getHazards(gen, defender, defenderSide) {
         damage += Math.floor((effectiveness * defender.maxHP()) / 8);
         texts.push('Foundry');
     }
+    f (defenderSide.isSR && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
+        var rockType = gen.types.get('dragon');
+        var effectiveness = rockType.effectiveness[defender.types[0]] *
+            (defender.types[1] ? rockType.effectiveness[defender.types[1]] : 1);
+        damage += Math.floor((effectiveness * defender.maxHP()) / 8);
+        texts.push('Velvet Scales');
+    }
     if (defenderSide.steelsurge && !defender.hasAbility('Magic Guard', 'Mountaineer')) {
         var steelType = gen.types.get('steel');
         var effectiveness = steelType.effectiveness[defender.types[0]] *

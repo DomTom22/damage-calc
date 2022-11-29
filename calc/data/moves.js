@@ -909,6 +909,7 @@ var DPP_PATCH = {
     'Power Trick': { bp: 0, type: 'Psychic' },
     Roost: { bp: 0, type: 'Flying' },
     'Stealth Rock': { bp: 0, type: 'Rock' },
+    'Velvet Scales': { bp: 0, type: 'Dragon' },
     'Sucker Punch': {
         bp: 80,
         type: 'Dark',
