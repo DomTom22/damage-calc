@@ -2101,7 +2101,7 @@ var XY_PATCH = {
     'Sticky Web': { bp: 0, type: 'Bug' },
     'Topsy-Turvy': { bp: 0, type: 'Dark' },
     'Trick-or-Treat': { bp: 0, type: 'Ghost' },
-    'Venom Drench': { bp: 0, type: 'Poison', target: 'allAdjacentFoes' }
+    'Venom Drench': { bp: 0, type: 'Poison', target: 'allAdjacentFoes' },
     Coral Break': {
     bp: 80,
     type: 'Water',
