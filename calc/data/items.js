@@ -397,22 +397,7 @@ exports.MEGA_STONES = {
     Steelixite: 'Steelix',
     Swampertite: 'Swampert',
     Tyranitarite: 'Tyranitar',
-    Venusaurite: 'Venusaur',
-    Metalynxite: 'Metalynx',
-  Archillesite: 'Archilles',
-  Electruxolite: 'Electruxo',
-  Baariettite: 'Baariette',
-  'Nuclear Baariettite': 'Baariette-Nuclear',
-  Drilgannite: 'Drilgann',
-  Inflagetite: 'Inflagetah',
-  Dramsamaite: 'Dramsama',
-  Syrentideite: 'Syrentide',
-  'Unidentified Fallen Object': 'S51-A',
-  Kiricornite: 'Kiricorn',
-  Whimsicottite: 'Whimsicott',
-  Arbokite: 'Arbok',
-  'Nuclear Arbokite': 'Nuclear Arbok',
-  'Nuclear Gyaradosite': 'Nuclear Gyarados',
+    Venusaurite: 'Venusaur"
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES))), [
     'Assault Vest',
