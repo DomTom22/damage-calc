@@ -779,8 +779,8 @@ function buildDescription(description, attacker, defender) {
 function getDescriptionLevels(attacker, defender) {
     if (attacker.level !== defender.level) {
         return [
-            attacker.level === 120 ? '' : "Lvl " + attacker.level,
-            defender.level === 120 ? '' : "Lvl " + defender.level,
+            attacker.level === 100 ? '' : "Lvl " + attacker.level,
+            defender.level === 100 ? '' : "Lvl " + defender.level,
         ];
     }
     var elide = [120, 50, 5].includes(attacker.level);
