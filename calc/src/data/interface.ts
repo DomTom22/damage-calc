@@ -27,7 +27,7 @@ export type NatureName =
 
 export type TypeName =
   'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
-  'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | 'Sound' | 'Cosmic' | 'Nuclear' | '???';
+  'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' | 'Sound' | 'Cosmic' | 'Nuclear' | 'Crystal' | '???';
 
 export type MoveCategory = 'Physical' | 'Special' | 'Status';
 
