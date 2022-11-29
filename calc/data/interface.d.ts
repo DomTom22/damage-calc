@@ -19,7 +19,7 @@ export declare type GameType = 'Singles' | 'Doubles';
 export declare type Terrain = 'Electric' | 'Grassy' | 'Psychic' | 'Misty';
 export declare type Weather = 'Sand' | 'Sun' | 'Rain' | 'Hail' | 'Sleet' | 'Harsh Sunshine' | 'Heavy Rain' | 'Darkness' | 'Strong Winds';
 export declare type NatureName = 'Adamant' | 'Bashful' | 'Bold' | 'Brave' | 'Calm' | 'Careful' | 'Docile' | 'Gentle' | 'Hardy' | 'Hasty' | 'Impish' | 'Jolly' | 'Lax' | 'Lonely' | 'Mild' | 'Modest' | 'Naive' | 'Naughty' | 'Quiet' | 'Quirky' | 'Rash' | 'Relaxed' | 'Sassy' | 'Serious' | 'Timid';
-export declare type TypeName = 'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' | 'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Crystal' | 'Omnitype' | 'Fairy' | '???';
+export declare type TypeName = 'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' | 'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Crystal' | 'Omnitype' | 'Fairy' | 'Sound' | 'Cosmic' | 'Nuclear' |'???';
 export declare type MoveCategory = 'Physical' | 'Special' | 'Status';
 export declare type MoveTarget = 'adjacentAlly' | 'adjacentAllyOrSelf' | 'adjacentFoe' | 'all' | 'allAdjacent' | 'allAdjacentFoes' | 'allies' | 'allySide' | 'allyTeam' | 'any' | 'foeSide' | 'normal' | 'randomNormal' | 'scripted' | 'self';
 export interface Generations {
