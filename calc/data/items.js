@@ -412,7 +412,7 @@ exports.MEGA_STONES = {
   Whimsicottite: 'Whimsicott',
   Arbokite: 'Arbok',
   'Nuclear Arbokite': 'Nuclear Arbok',
-  'Nuclear Gyaradosite': 'Nuclear Gyarados',
+  'Nuclear Gyaradosite': 'Nuclear Gyarados'
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES))), [
     'Assault Vest',
