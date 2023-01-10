@@ -9324,11 +9324,19 @@ var XY_PATCH = {
   },
   //Vega
   Rduckulus: {
-    types: ['Fighting', 'Ghost'],
+    types: ['Fighting', 'Flying'],
     bs: {hp: 106, at: 75, df: 65, sa: 58, sd: 72, sp: 116},
     weightkg: 50.3,
     abilities: {0: 'Pure Power'},
   },
+  'Magnezone-Egho': {
+    types: ['Grass', 'Steel'],
+    bs: {hp: 80, at: 120, df: 90, sa: 70, sd: 115, sp: 60},
+    weightkg: 285,
+    abilities: {0: 'Regenerator'},
+  },
+  //Infinity
+
 };
 var XY = util_1.extend(true, {}, BW, XY_PATCH);
 XY['Arceus'].otherFormes.push('Arceus-Fairy');
