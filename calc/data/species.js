@@ -9322,6 +9322,13 @@ var XY_PATCH = {
     weightkg: 42.5,
     abilities: {0: 'Hyper Cutter'},
   },
+  //Vega
+  Rduckulus: {
+    types: ['Fighting', 'Ghost'],
+    bs: {hp: 106, at: 75, df: 65, sa: 58, sd: 72, sp: 116},
+    weightkg: 50.3,
+    abilities: {0: 'Pure Power'},
+  },
 };
 var XY = util_1.extend(true, {}, BW, XY_PATCH);
 XY['Arceus'].otherFormes.push('Arceus-Fairy');
